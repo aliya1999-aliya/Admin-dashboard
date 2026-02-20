@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Premium Admin Dashboard</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- SIDEBAR -->
+<aside class="sidebar" id="sidebar">
+  <div class="logo">🚀 NeonDash</div>
+  <ul class="menu">
+    <li class="active" data-page="dashboard"><i>🏠</i><span>Dashboard</span></li>
+    <li data-page="users"><i>👥</i><span>Users</span></li>
+    <li data-page="analytics"><i>📊</i><span>Analytics</span></li>
+    <li data-page="sales"><i>💰</i><span>Sales</span></li>
+    <li data-page="settings"><i>⚙️</i><span>Settings</span></li>
+  </ul>
+  <div class="logout" id="logoutBtn"><i>🚪</i><span>Logout</span></div>
+</aside>
+
+<!-- MAIN CONTENT -->
+<main class="main">
+  <nav class="topnav">
+    <button id="sidebarToggle">☰</button>
+    <input type="text" id="searchInput" placeholder="Search...">
+    <div class="actions">
+      <span id="themeToggle">🌙</span>
+      <span class="notif">🔔</span>
+      <img src="https://i.pravatar.cc/40" class="avatar">
+    </div>
+  </nav>
+  <div id="contentArea"></div>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
